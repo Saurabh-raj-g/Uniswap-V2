@@ -1,0 +1,278 @@
+main {
+    display: block;
+}
+.card-full{
+    position: relative;
+    max-width: 480px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 1%) 0px 0px 1px, rgb(0 0 0 / 4%) 0px 4px 8px, rgb(0 0 0 / 4%) 0px 16px 24px, rgb(0 0 0 / 1%) 0px 24px 32px;
+    border-radius: 24px;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+.swap-header1{
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    color: rgb(86, 90, 105);
+} 
+.swap-header2{
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+} 
+.swap-header3{
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.swap-page1 {
+    position: relative;
+    padding: 8px;
+}
+.swap-page2 {
+    display: grid;
+    grid-auto-rows: auto;
+    row-gap: 8px;
+}
+.swap-pagee3 {
+    border-radius: 20px;
+    border: 1px solid rgb(237, 238, 242);
+    background-color: rgb(247, 248, 250);;
+    width: initial;
+    height:60px;
+}
+.swapbox {
+    
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+    border-radius: 20px;
+    background-color: rgb(237, 238, 242);
+    z-index: 1;
+    width: initial;
+}
+.swapbox1{
+    border-radius: 20px;
+    border: 1px solid rgb(237, 238, 242);
+    background-color: rgb(247, 248, 250);
+    width: initial;
+}
+.swapbox-input1{
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 1rem 1rem 0.75rem;
+}
+.token-select > * {
+    user-select: none;
+} 
+.token-select1 {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    appearance: none;
+    line-height: inherit;
+}
+.token-select2 {
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    z-index: 1;
+    will-change: transform;
+    transition: transform 450ms ease 0s;
+    transform: perspective(1px) translateZ(0px);
+}
+.token-select3:hover{
+    background-color: rgb(237, 238, 242);
+    
+}
+.token-select3{
+    background-color: rgb(247, 248, 250);
+    visibility: visible;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    border-radius: 16px;
+    box-shadow: rgb(0 0 0 / 8%) 0px 6px 10px;
+    outline: none;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    height: 2.4rem;
+    width: initial;
+    padding: 0px 8px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-right: 12px;
+}
+button{
+    -webkit-writing-mode: horizontal-tb !important;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+}
+.span-button {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+}
+.span-token-symb {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+}
+.span-token-symb1{
+    display: flex;
+    padding: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+} 
+.span-token-symb2{
+    width: fit-content;
+}
+.swap-input1-1{
+    color: rgb(0, 0, 0);
+    width: 0px;
+    position: relative;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    flex: 1 1 auto;
+    background-color: rgb(247, 248, 250);
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px;
+    appearance: textfield;
+    text-align: right;
+} 
+.swap-input1-2{
+    filter: none;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out 0s;
+}
+.yu {
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding: 0px 1rem 1rem;
+}
+.pe{
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+.iI {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+}
+.cC {
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.jL{
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.EIPBx {
+    filter: none;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out 0s;
+}
+.css-djrxae {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(195, 197, 203);
+}
+.swap-bt {
+    padding: 4px;
+    border-radius: 12px;
+    height: 32px;
+    width: 32px;
+    position: relative;
+    margin-top: -14px;
+    margin-bottom: -14px;
+    left: calc(50% - 16px);
+    background-color: rgb(247, 248, 250);
+    border: 4px solid rgb(255, 255, 255);
+    z-index: 2;
+}
+.connect-wallet {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    appearance: none;
+    line-height: inherit;
+}
+.connect-wallet1 {
+    padding: 16px;
+    width: 100%;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid transparent;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    will-change: transform;
+    transition: transform 450ms ease 0s;
+    transform: perspective(1px) translateZ(0px);
+}
+.connect-wallet2{
+    background-color: rgb(253, 234, 241);
+    color: rgb(213, 0, 102);
+    font-size: 16px;
+    font-weight: 500;
+}
+.table-fixed tbody{
+    height: 100px;
+    overflow-y: auto;
+    
+   
+    
+  }
+  .table-fixed tbody,tr{
+    display: block;
+    cursor:pointer;
+  }
+  
