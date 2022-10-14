@@ -2,8 +2,8 @@ const path = require("path");
 const HDWalletProvider = require("@truffle/hdwallet-provider");
 
 const private_keys =[ 
-  '70989e6471e6b67264e90b37907cc88d858557cbf26e3eb33ea572455c16a076',
-  '8a11d9b2ff2d457d49df052de7ed825ddbbcdcae0550aadfdefc9fd80ffb96cf'
+  'gfff',
+  'gfdsss'
 ]
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
@@ -18,7 +18,7 @@ module.exports = {
     ropsten: {
       provider: () => new HDWalletProvider({
         privateKeys : private_keys,
-        providerOrUrl : "https://ropsten.infura.io/v3/ea158dea03c6442e8ce868c081c97b88",
+        providerOrUrl : "https://ropsten.infura.io/v3/vgff",
         numberOfAddresses : 2
  
       }),
